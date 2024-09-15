@@ -20,17 +20,16 @@ function Home(props) {
             <div style={{ fontWeight: "600", marginBottom: "100px" }} className='intro'>welcome to the website of your dreams</div>
             <div className='all-cards'>
                 {cards.map(card => (
-                    card.likes.includes(user._id) ? console.log(card) :
-                        <Card style={{ width: "800px" }} className="card"
-                            key={card._id}
-                            title={card.title}
-                            subtitle={card.subtitle}
-                            description={card.description}
-                            src={card.image.url}
-                            alt={card.image.alt}
-                            id={card._id}
-                            phone={card.phone}
-                        />
+                    <Card style={{ width: "800px" }} className="card"
+                        key={card._id}
+                        title={card.title}
+                        subtitle={card.subtitle}
+                        description={card.description}
+                        src={card.image.url}
+                        alt={card.image.alt}
+                        id={card._id}
+                        phone={card.phone}
+                    />
                 ))}
             </div>
         </div >

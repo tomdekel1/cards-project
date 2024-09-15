@@ -17,7 +17,7 @@ function Card(props) {
   }
 
   return (
-    <div className="card" style={{ width: "18rem", borderRadius: "10px", border: "none", background: "var(--card-bg)", color: "var(--text-color)", width: "90vw", display: "flex", flexDirection: "row", maxHeight: "60vh", marginLeft: "100px", padding: "3%", }} >
+    <div className="card" style={{ width: "18rem", borderRadius: "10px", marginBottom: "100px", border: "none", background: "var(--card-bg)", color: "var(--text-color)", width: "90vw", display: "flex", flexDirection: "row", maxHeight: "60vh", marginLeft: "100px", padding: "3%", }} >
       <img src={props.src} className="card-img-top" alt={props.alt} />
       <div className="card-body" style={{ marginTop: "-2%" }} >
         <h5 className="card-title fs-2">{props.title}</h5>

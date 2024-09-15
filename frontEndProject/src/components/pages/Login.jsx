@@ -41,7 +41,6 @@ function Login() {
         async onSubmit(values) {
             try {
                 const res = await login(values)
-                console.log(getUser())
                 console.log(res)
                 navigate('/')
             }
