@@ -6,7 +6,7 @@
   /* font-family: roboto; */
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .all-cards{
@@ -43,7 +43,8 @@ gap: 0.4%;
   font-family: "Protest Guerrilla", sans-serif;
   width: 80vw;
   text-align: center;
-  font-size: 150px;
+  font-size: 100px;
+  margin-top: 30px;
 }
 
 
