@@ -15,7 +15,7 @@ function MyCards() {
         getData();
 
 
-    }, [])
+    }, [cardDetails])
     return (
         <div style={{ background: "var(--background-color)", color: "var(--text-color)", }}>
 
