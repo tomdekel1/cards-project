@@ -15,7 +15,7 @@ function Favorites(props) {
             setCards(filteredCards)
 
         })()
-    }, [props.searchValue]);
+    }, [props.searchValue, cards]);
 
     return (
 
