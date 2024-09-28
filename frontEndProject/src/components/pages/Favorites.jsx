@@ -1,7 +1,7 @@
-import Card from '../card'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { useAuth } from '../../contexts/auth.context'
+import Card from '../Card'
 
 
 function Favorites(props) {

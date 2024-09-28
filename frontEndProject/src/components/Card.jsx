@@ -9,6 +9,7 @@ function Card(props) {
   const handleFavorite = async () => {
     setFavorite(!favorite);
     const res = await toggleFavoriteCard(props.id)
+    console.log(res)
 
   }
   const navigate = useNavigate()
@@ -27,7 +28,6 @@ function Card(props) {
 
         <div onClick={handleFavorite} style={{ color: "white" }}
           className={["bi bi-suit-heart-fill", favorite && "text-danger"]
-            .filter(Boolean)
             .join(" ")}></div>
 
         <button style={{ borderRadius: "20px", border: "none", padding: "18px", marginTop: "3%", background: "linear-gradient(0.25turn, #ae7feb, #BDE8CA, #1ce4d3)", border: "1px,solid, aqua", boxShadow: " 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)", }} onClick={moveToCardPage}>show card</button>
