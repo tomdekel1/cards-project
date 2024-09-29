@@ -10,7 +10,7 @@
 [data-theme="dark"]{
     --background-color: linear-gradient(0.25turn,#2E0249, #570A57, #A91079);
     --navbar-bg:linear-gradient(0.25turn,#4d037a, #570A57, #ca399c);
-    --card-bg:linear-gradient(0.25turn,#2E0249, #570A57, #A91079);
+    --card-bg:linear-gradient(0.25turn,#680ea0, #570A57, #c44f9f);
     --text-color:#5BBCFF;
     --toggle:linear-gradient(0.25turn,#2E0249, #570A57, #A91079);
     --toggle-bg:#8a8282;

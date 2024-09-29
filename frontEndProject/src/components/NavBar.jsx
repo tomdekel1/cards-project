@@ -84,7 +84,7 @@ function NavBar(props) {
                     </form>
                 </div>
             </div>
-        </nav>
+        </nav >
     )
 }
 
