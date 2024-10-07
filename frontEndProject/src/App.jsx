@@ -5,7 +5,6 @@ import About from './components/pages/About'
 import Login from './components/pages/Login'
 import Signup from './components/pages/Signup'
 import Home from './components/pages/Home'
-import SignupBiz from './components/pages/SignupBiz'
 import LogOut from './components/pages/LogOut'
 import ProtectedRoute from './components/ProtectedRoute'
 import MyCards from './components/pages/MyCards'
@@ -33,7 +32,6 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/signUp" element={<Signup />} />
-        <Route path="/signUpBiz" element={<SignupBiz />} />
         <Route path="/LogOut" element={<LogOut />} />
         <Route path="/cardPage/:id" element={<CardPage />} />
         <Route path="/favorites" element={<Favorites searchValue={search} />} />

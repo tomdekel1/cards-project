@@ -73,7 +73,7 @@ function Login() {
                     required
                     placeholder="john doe"
                     error={form.touched.password && form.errors.password}
-                    type="text" />
+                    type="password" />
                 {serverError && <div className='alert alert-danger'>{serverError}</div>}
 
                 <button disabled={!form.isValid} className='btn btn-primary' type="submit" style={{ marginLeft: "40%" }}>Sign Up</button>

@@ -70,11 +70,6 @@ function NavBar(props) {
                                         Sign Up
                                     </Link>
                                 </li>
-                                <li className="nav-item">
-                                    <Link to="/signUpBiz" className="nav-item btn mx-5" style={{ textDecoration: "none", color: "var(--text-color)" }} >
-                                        Sign Up business
-                                    </Link>
-                                </li>
                             </>
                         )
                         }
